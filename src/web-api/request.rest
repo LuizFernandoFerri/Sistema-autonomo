@@ -1,0 +1,51 @@
+POST http://localhost:3000/api/autonomo
+Content-Type: application/json
+
+{
+    "nome": "Marcus teste",
+    "dataDeNascimento": "1966-04-04",
+    "cpf": "12345678912",
+    "telefone": "21985352507",
+    "email": "marcus@devback@gmail.com",
+    "foto": "https://www.serasaexperian.com.br/images-cms/wp-content/uploads/2023/05/desenvolvedor-de-software.jpg",
+    "profissao": "programador",
+    "senha": "123",
+    "descricao": "desenvolvimento web"
+}
+
+###
+
+GET http://localhost:3000/api/autonomos
+
+###
+
+GET http://localhost:3000/api/autonomo/651337e4ecf9f8a4a9c43799
+
+###
+
+DELETE http://localhost:3000/api/autonomo/65132d7bde48ca2f36fdf860
+
+###
+PUT http://localhost:3000/api/autonomo/651337e4ecf9f8a4a9c43799
+Content-Type: application/json
+
+{
+    "nome": "Marcus teste",
+    "dataDeNascimento": "1966-04-04",
+    "cpf": "12345678912",
+    "telefone": "21985352507",
+    "email": "marcus@gmail.com",
+    "foto": "https://i.pinimg.com/736x/95/6c/21/956c21f39d1624efed1c756d31aa5fd8.jpg",
+    "profissao": "programador",
+    "descricao": "desenvolvimento web"
+}
+
+###
+POST http://localhost:3000/api/pontuacao
+Content-Type: application/json
+
+{
+    "pontuacao": "5",
+    "autonomoId": "6513380decf9f8a4a9c4379f",
+    "usuarioId": "6519f837512f92c2bbf8b8b6"
+}
