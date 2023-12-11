@@ -4,8 +4,8 @@ Clique aqui em _<a href="./src/web-api"> Backend Ajuda Aí </a>_ contém a docum
 
 # FRONT-END WEB
 
-Clique aqui em _<a href="./front-end-web"> Front-end web Ajuda aí </a>_ contém a documentação para iniciar a aplicação front-end web.
+Clique aqui em _<a href="./src/front-end-web"> Front-end web Ajuda aí </a>_ contém a documentação para iniciar a aplicação front-end web.
 
 # FRONT-END MOBILE
 
-Clique aqui em _<a href="./ajuda-ai-mobile"> Front-end mobile Ajuda aí </a>_ contém a documentação para iniciar a aplicação front-end mobile.
+Clique aqui em _<a href="./src/ajuda-ai-mobile"> Front-end mobile Ajuda aí </a>_ contém a documentação para iniciar a aplicação front-end mobile.
